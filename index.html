@@ -1,623 +1,1267 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>SaaSpal - SaaS and Software Landing Page Template</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"/>
-    <!-- Place favicon.ico in the root directory -->
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
 
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/tiny-slider.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/tailwindcss.css"/>
+    <!-- my CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web resmi bimbel LB3R" />
+    <meta property="og:title" content="Pilihan Tepat, Budget Hemat" />
+    <meta property="og:url" content="https://bimbellb3r.github.io" />
+    <meta property="og:description" content="Gabung dan buat jadwalmu..." />
+    <meta
+      property="og:image"
+      itemprop="image"
+      content="https://raw.githubusercontent.com/bimbelLB3R/bimbellb3r.github.io/main/img/slider/og.jpg"
+    />
+
+    <title>OFFICIAL WEBSITE LB3R</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      #top a {
+        /* padding: 1rem;
+        background-color: red;
+        color: black; */
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+      }
+    </style>
   </head>
+
   <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-		
-		<!-- ========================= header start ========================= -->
-    <header class="header">
-      <div class="navbar-area">
-        <div class="container relative">
-          <div class="row items-center">
-            <div class="w-full">
-              <nav class="flex items-center justify-between py-4 navbar navbar-expand-lg">
-                <a class="navbar-brand mr-5" href="index.html">
-                  <img src="assets/img/logo/logo.svg" alt="Logo" />
-                </a>
-                <button class="block navbar-toggler focus:outline-none lg:hidden" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
+    <!-- navbar -->
+    <div class="navbar-fixed" id="pucuk">
+      <nav class="blue-grey darken-4">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">
+              <img src="img/slider/logolb3r4.png" alt="" width="150" />
+            </a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a
+                  href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/ "
+                  >Login Admin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/data_tentor/"
+                  target="_blank"
+                  >Login Tentor</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/akun_siswa/login_siswa.php"
+                  target="_blank"
+                  >Login Siswa</a
+                >
+              </li>
+              <!-- <li><a href="">Portfolio</a></li> -->
+              <li>
+                <a href="https://wa.me/6281392552459" target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-                <div class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white shadow lg:w-auto collapse navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent lg:shadow-none" id="navbarOne">
-                  <ul id="nav" class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
-                    <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll active" href="#home">Home</a>
-                    </li>
-                     <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll" href="#about">About</a>
-                    </li>
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a
+          href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/"
+          >Login Admin</a
+        >
+      </li>
+      <li>
+        <a
+          href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/data_tentor/"
+          target="_blank"
+          >Login Tentor</a
+        >
+      </li>
+      <li>
+        <a
+          href="http://192.168.100.193/aplikasibimbel2/public/data_tentor/"
+          target="_blank"
+          >Login Tentor Wifi Kantor</a
+        >
+      </li>
+      <li>
+        <a
+          href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/akun_siswa/login_siswa.php"
+          target="_blank"
+          >Login Siswa</a
+        >
+      </li>
+      <!-- <li><a href="">Portfolio</a></li> -->
+      <li>
+        <a href="https://wa.me/6281392552459" target="_blank">Contact Us</a>
+      </li>
+    </ul>
 
-                    <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll" href="#why">Why</a>
-                    </li>
-                    <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item ml-5 lg:ml-11">
-                      <a class="page-scroll" href="#testimonials">Clients</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar collapse -->
-              </nav>
-              <!-- navbar -->
+    <!-- slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/slider/5.png" />
+          <div class="caption left-align">
+            <h3></h3>
+              <span style="color: red">Baru,</span>Kelas Melukis & Mewarna
+            </h3>
+            <h5 class="light grey-text text-lighten-3">
+              TK,SD,SMP, hingga SMA
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/1.png" />
+          <div class="caption left-align">
+            <h3>Yuk, Buat Kelas Kamu di LB3R!</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Cukup ajak temanmu untuk les bareng.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/utbk.jpeg" />
+          <div class="caption right-align">
+            <h3>Siapkan Bekal Meraih Kampus Impian</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Ikutlah program kelas UTBK.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/slider/4.png" />
+          <div class="caption center-align">
+            <h3>Tentukan Materi Belajar Sesuai Kebutuhanmu</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Kamu lebih leluasa dalam belajar.
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="center">
+      <a
+        href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/aplikasibimbel2/public/latihan_UI/latihan_1.php#halo"
+        target="_blank"
+      >
+        <button class="tomboldaftar">DAFTAR SEKARANG</button>
+      </a>
+    </div>
+    <!-- About Us -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <h3 class="center light grey-text text-darken-3">About Us</h3>
+          <div class="col m6 light">
+            <h5>We Are Professionals</h5>
+            <p>
+              Ribuan siswa sudah bergabung bersama LB3R sejak berdirinya Lembaga
+              Bimbingan Belajar Bunda Ramaini (LB3R) pada 20 Oktober 2012. Kami
+              memberikan bimbingan belajar mulai dari jenjang TK, SD, SMP, SMA
+              hingga Alumni melalui berbagai macam program belajar. Dengan
+              didampingi tenaga pengajar yang profesional, ruang belajar yang
+              nyaman, komunikasi serta keterbukaan antara orang tua / siswa
+              dengan LB3R, prestasi belajar dapat di raih.
+            </p>
+            <p>
+              Metode belajar disesuaikan dengan perkembangan kurikulum di
+              sekolah, menggunakan tema (tematik) maupun per mata pelajaran.
+              Siswa kelas 12 SMA mendapatkan tambahan berupa konsultasi
+              pemilihan jurusan serta bimbingan menghadapi Ujian Tulis Berbasis
+              Komputer (UTBK).
+            </p>
+          </div>
+          <div class="col m6 light">
+            <a href="#calistung">PROGRAM CALISTUNG</a>
+            <div class="progress">
+              <div class="determinate blue" style="width: 95%"></div>
+            </div>
+            <a href="#reguler">PROGRAM REGULER</a>
+            <div class="progress">
+              <div class="determinate blue" style="width: 85%"></div>
+            </div>
+            <a href="#bahasa">PROGRAM BAHASA</a>
+            <div class="progress">
+              <div class="determinate blue" style="width: 90%"></div>
+            </div>
+            <a href="#utbk">PROGRAM UTBK</a>
+            <div class="progress">
+              <div class="determinate blue" style="width: 90%"></div>
+            </div>
+            <a href="#khusus">PROGRAM KHUSUS</a>
+            <div class="progress">
+              <div class="determinate blue" style="width: 90%"></div>
             </div>
           </div>
-          <!-- row -->
         </div>
-        <!-- container -->
       </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ========================= header end ========================= -->
-
-    <!-- ========================= hero-section start ========================= -->
-    <section id="home" class="hero-section relative bg-no-repeat bg-top z-10 pt-200 pb-13 lg:pb-200 2xl:pb-120" style="background-image: url('assets/img/hero/hero-bg.svg')">
-      <div class="container">
-        <div class="row flex items-center relative">
-          <div class="w-full lg:w-1/2">
-            <div class="hero-content mb-0 lg:mb-6">
-              <h1 class="text-white mb-9 text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-5xl 2xl:text-6xl">Launch Your SaaS Website in Minutes!</h1>
-              <p class="text-white text-lg mb-10 xl:pr-18 2xl:pr-120">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-              </p>
-							<a href="http://d8f3-2001-448a-6021-117e-bc28-775c-d2d7-360d.ngrok.io/pkstab" class="main-btn border-btn btn-hover mb-2">LOGIN</a>
-							<a href="#features" class="scroll-bottom"> <i class="lni lni-arrow-down"></i></a>
-            </div>
-					</div>
-					<div class="w-full lg:w-1/2">
-						<div class="hero-img pt-8 lg:pt-0">
-							<img src="assets/img/hero/hero-img.png" alt="" class="w-full lg:w-auto">
-						</div>
-					</div>
-        </div>
-			</div>
     </section>
-		<!-- ========================= hero-section end ========================= -->
+    <!-- Program -->
+    <section id="calistung" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light center">
+            <img src="img/portfolio/calistung.png" alt="" />
+          </div>
+          <div class="col m6 light">
+            <blockquote>
+              <h5>PROGRAM CALISTUNG</h5>
+              <p id="calistung">
+                Program calistung terdiri atas belajar membaca, menulis dan
+                berhitung terutama untuk persiapan memasuki jenjang sekolah
+                dasar. Jumlah pertemuan standartnya dua-tiga kali dalam satu
+                minggu dengan lama pembelajaran 45-60 menit per pertemuan.
+                Program ini diperuntukkan untuk anak-anak TK atau SD yang belum
+                mampu membaca, menulis atau berhitung. Biaya untuk kelas standar
+                yang minimal terdiri atas 3 anak adalah 175.000/bulan.
+                Sedangkan, jika perorangan 35000/pertemuan. Fasilitas buku tidak
+                termasuk didalamnya, jadi ada biaya tersendiri. Sedangkan untuk
+                biaya pendaftaran 100000 per anak. Pembelajaran calistung
+                dikemas secara menarik agar tidak membosankan, kadang-kadang
+                menggunakan media untuk membantu siswa belajar.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light center" id="reguler">
+            <img src="img/portfolio/reguler.png" alt="" />
+          </div>
+          <div class="col m6 light">
+            <blockquote>
+              <h5>PROGRAM KELAS REGULER</h5>
+              <p>
+                Program reguler merupakan program yang paling banyak diambil
+                siswa. Program ini diperuntukkan untuk siswa SD hingga SMA
+                dengan materi pelajaran lengkap. Untuk jenjang SD mendapatkan
+                pelajaran matematika, tematik dan bahasa inggris. Sedangkan
+                untuk SMP meliputi IPA,IPS, Bahasa Indonesia, Bahasa Inggris,
+                dan matematika. Sementara itu untuk SMA IPA mendapatkan materi
+                Matematika, Bahasa Indonesia, Bahasa Inggris, Fisika, Kimia, dan
+                Biologi. Untuk IPS mendapat Bahasa Indonesia, Bahasa Inggris,
+                Matematika, Ekonomi, Geografi, dan Sejarah. Terkait dengan mata
+                pelajaran siswa dapat mengajukan mapel apa saja yang akan
+                diprioritaskan dan jika pengajar kosong pada mapel tertentu,
+                siswa dapat memilih mapel lain. Biaya les untuk kelas reguler
+                175000/bulan dengan jumlah pertemuan 2-3 kali per minggu atau
+                8-12 kali per bulan. Satu kali pertemuan berlangsung 45-60
+                menit. Program kelas reguler khusus untuk siswa kelas 12 SMA
+                biayanya 200000 sudah termasuk kelas UTBK.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light center" id="bahasa">
+            <img src="img/portfolio/bahasa.png" alt="" />
+          </div>
+          <div class="col m6 light">
+            <blockquote>
+              <h5>PROGRAM KELAS BAHASA</h5>
+              <p>
+                Program kelas bahasa biasa diambil oleh siswa SMA jurusan bahasa
+                atau siswa SMA yang ingin mendalami bahasa, meliputi bahasa
+                inggris, bahasa arab, bahasa jepang dan tentunya bahasa
+                indonesia. Selain pelajaran bahasa, siswa kelas bahasa juga bisa
+                mengajukan permintaan untuk mata pelajaran yang lain sesuai
+                kebutuhan. Sedangkan untuk biaya 175000/bulan dengan jumlah
+                pertemuan 8-12 kali per bulan atau 2-3 kali per minggu. Lama
+                belajar per pertemuan kurang lebih 45-60 menit.Kami masih
+                membuka peluang untuk terus menambah pengajar khususnya bahasa
+                asing, korea dan china.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light center" id="utbk">
+            <img src="img/portfolio/utbk.png" alt="" />
+          </div>
+          <div class="col m6 light">
+            <blockquote>
+              <h5>PROGRAM KELAS UTBK</h5>
+              <p>
+                Jika kalian kelas 12 SMA/MA/SMK dan ingin melanjutkan kuliah ke
+                perguruan tinggi negeri, kelas ini cocok untuk diambil. Kelas
+                ini membahas soal-soal persiapan masuk perguruan tinggi melalui
+                jalur SBMPTN. Jalur ini siswa harus mempunyai nilai UTBK yang
+                tinggi sebagai modal melamar ke perguruan tinggi. Sehingga siswa
+                perlu mempersiapkan diri sejak dini. Biaya kelas ini 35000 per
+                datang dengan syarat minimal siswa harus terpenuhi. Materi
+                pembelajaran mencangkup TPS dan TKA. Sedangkan kelas terbagi
+                menjadi dua, yaitu SAINTEK dan SOSHUM. Jumlah pertemuan bisa
+                diatur berdasarkan kesepakatan.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col m6 light center" id="khusus">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              fill="currentColor"
+              class="bi bi-person-workspace"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
+              />
+              <path
+                d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"
+              />
+            </svg>
+          </div>
+          <div class="col m6 light">
+            <blockquote>
+              <h5>PROGRAM KHUSUS</h5>
+              <p>
+                Program khusus diperuntukkan untuk siswa yang ingin belajar mata
+                pelajaran tertentu saja atau sedang mengikuti lomba, olimpiade
+                atau bentuk kompetisi lainnya. Biaya program ini tergantung dari
+                jenis pelajaran yang diambil, sedangkan jumlah pertemuan sesuai
+                kesepakatan.
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<!-- ========================= feature-section start ========================= -->
-		<section id="features" class="feature-section pt-120">
-			<div class="container">
-				<div class="row flex justify-center">
-					<div class="w-full md:w-8/12 lg:w-4/12">
-						<div class="text-center px-3 2xl:px-10 py-8">
-							<div class="feature-icon">
-								<i class="lni lni-bootstrap"></i>
-							</div>
-							<div class="content">
-								<h3 class="mb-5">Bootstrap 5</h3>
-								<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-							</div>
-						</div>
-					</div>
-					<div class="w-full md:w-8/12 lg:w-4/12">
-						<div class="text-center px-3 2xl:px-10 py-8">
-							<div class="feature-icon">
-								<i class="lni lni-layout"></i>
-							</div>
-							<div class="content">
-								<h3 class="mb-5">Clean Design</h3>
-								<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-							</div>
-						</div>
-					</div>
-					<div class="w-full md:w-8/12 lg:w-4/12">
-						<div class="text-center px-3 2xl:px-10 py-8">
-							<div class="feature-icon">
-								<i class="lni lni-coffee-cup"></i>
-							</div>
-							<div class="content">
-								<h3 class="mb-5">Easy to Use</h3>
-								<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= feature-section end ========================= -->
+    <!-- Clients -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="img/slider/4.png" /></div>
 
-		<!-- ========================= about-section start ========================= -->
-		<section id="about" class="about-section relative z-10 pt-150">
-			<div class="container">
-				<div class="row flex items-center">
-					<div class="w-full lg:w-1/2">
-						<div class="about-img relative z-10 pt-19 pb-19 mb-18 lg:mb-0">
-							<img src="assets/img/about/about-1.png" alt="" class="w-100">
-							<img src="assets/img/about/about-left-shape.svg" alt="" class="shape-1">
-							<img src="assets/img/about/left-dots.svg" alt="" class="shape shape-2">
-						</div>
-					</div>
-					<div class="w-full lg:w-1/2">
-						<div class="about-content">
-							<div class="section-title mb-8">
-								<h1 class="mb-6 ">Perfect Solution Thriving Online Business</h1>
-								<p class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet.</p>
-							</div>
-							<a href="javascript:void(0)" class="main-btn btn-hover border-btn ">Discover More</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= about-section end ========================= -->
+      <div class="container clients">
+        <h3 class="center light white-text">Beberapa Pengajar Kami</h3>
+        <div class="row">
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/adi.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Adi Nugraha. Seorang pribadi yang
+                  Introvert. Lahir di Tabalong dan sekarang tinggal di Komp.
+                  Bumi Tabalong Damai Blok D , Mabuun. Saya bergabung dengan
+                  LB3R dari tahun 2022 sampai sekarang. Beberapa pekerjaan yang
+                  menjadi pengalamannku diantaranya bekerja di Jasa Illustrasi
+                  Digital Riwayat sekolah, mulai SDN Mabuun,SMP Hasbunallah,SMAN
+                  2 Tanjung hingga kuliah di Pendidikan Seni Rupa, Universitas
+                  Negeri Yogyakarta. Saat ini status maritalku Belum Menikah.
+                  Makanan favoritku Nasi Goreng, Martabak Asin, sedangkan hobiku
+                  Menggambar melukis
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Kak Adi Nugraha</a>
+              </div>
+              <div class="card-action">
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/mahpi2.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Mahpi Aulia. Seorang pribadi yang Senang
+                  berkomunikasi dengan anak-anak. Lahir di Tabalong,dan sekarang
+                  tinggal di Desa Mahe Pasar, Kec. Haruai, Kab. tabalong. Saya
+                  bergabung dengan LB3R dari tahun 2022 sampai sekarang.
+                  Beberapa pekerjaan yang menjadi pengalamannku diantaranya
+                  bekerja di Tentor Les Privat matematika di Banjarmasin.
+                  Riwayat sekolah, mulai SDN 1 Mahe Pasar,Mts Al-Falah Mahe,SMAN
+                  1 Tanjung hingga kuliah di Pendidikan Matematika. Saat ini
+                  status maritalku Belum Menikah. Makanan favoritku Mie Ayam,
+                  Sate, dan Kebab, sedangkan hobiku Menyanyi
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Kak Mahpi</a>
+              </div>
+              <div class="card-action">
+                <a href="#"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/budi.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Budi. Seorang pribadi yang Riang namun
+                  kikuk. Lahir di Tanjung, 20 Juli 1996 dan sekarang tinggal di
+                  Pamarangan Kiwa Rt 05.Saya bergabung dengan LB3R dari tahun
+                  2022 sampai sekarang. Beberapa pekerjaan yang menjadi
+                  pengalamannku diantaranya mengajar di Cakap (Platform online )
+                  dan di . Riwayat sekolah, mulai SDN Pamarangan Kiwa 1,SMP
+                  Hasbunallah,SMAN1 Tanjung hingga kuliah di Pendidikan Bahasa
+                  Jepang. Saat ini status maritalku Sudah Menikah. Makanan
+                  favoritku Baso, sedangkan hobiku Membaca Novel, Manga, dan
+                  mendengarkan Music
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Pak Budi</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/loucyfer.rra/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-		<!-- ========================= about2-section start ========================= -->
-		<section id="about" class="about-section pt-150">
-			<div class="container">
-				<div class="row flex items-center">
-					<div class="w-full lg:w-1/2">
-						<div class="about-content">
-							<div class="section-title mb-8">
-								<h1 class="mb-6 text-4xl md:text-5xl lg:text-4xl xl:text-5xl 2xl:text-6xl">Easy to Use with Tons of Awesome Features</h1>
-								<p class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-							</div>
-							<ul class="about-feature">
-								<li>Quick Access</li>
-								<li>Easily to Manage</li>
-								<li>24/7 Support</li>
-							</ul>
-							<a href="javascript:void(0)" class="main-btn btn-hover border-btn ">Learn More</a>
-						</div>
-					</div>
-					<div class="w-full lg:w-1/2 order-first lg:order-last">
-						<div class="about-img-2 relative z-10 pt-19 pb-19 mb-18 lg:mb-0">
-							<img src="assets/img/about/about-2.png" alt="" class="w-100">
-							<img src="assets/img/about/about-right-shape.svg" alt="" class="shape shape-1">
-							<img src="assets/img/about/right-dots.svg" alt="" class="shape shape-2">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= about2-section end ========================= -->
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/edna.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Dea Edna Adinda. Seorang pribadi yang
+                  Supel, perfeksionis. Lahir di Tabalong, 16 Februari 2000 dan
+                  sekarang tinggal di Jalan Jendral Basuki Rahmad. Desa Wayau.
+                  Kecamatan Tanjung. Kabupaten Tabalong. Saya bergabung dengan
+                  LB3R dari tahun 2022 sampai sekarang. Beberapa pekerjaan yang
+                  menjadi pengalamannku diantaranya bekerja di Enumerator.
+                  Riwayat sekolah, mulai SDN 2 Hikun,SMPN 1 Tanjung,SMAN 1
+                  Tanjung hingga kuliah di Agribisnis/Sosial Ekonomi Pertanian.
+                  Saat ini status maritalku Belum Menikah. Makanan favoritku
+                  Soto, sedangkan hobiku Menyanyi, menonton film
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Dea</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/deaedn/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-		<!-- ========================= feature-section start ========================= -->
-		<section id="why" class="feature-extended-section pt-25">
-			<div class="feature-extended-wrapper py-18 bg-theme-color bg-opacity-10">
-				<div class="container">
-					<div class="row flex justify-center">
-						<div class="w-full md:w-9/12 lg:w-8/12 xl:w-6/12">
-							<div class="section-title text-center mb-15">
-								<h1 class="mb-6">Why Choose SaaSpal</h1>
-								<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-							</div>
-						</div>
-					</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/dwi.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Dwi Seftina. Lahir di Banjarmasin dan
+                  sekarang tinggal di Jl. griya Tama Asri,Pandan Arum,MP Kab.
+                  Tabalong, Kalimantan Selatan. Saya bergabung dengan LB3R dari
+                  tahun 2012 sampai sekarang. Saat ini saya mengajar di SMA N 1
+                  Tanjung Mata Pelajaran Kimia. Riwayat sekolah, mulai SD N
+                  Kebun Bunga 6 Bjm,SMP Negeri 3 BJm ,SMA N 7 Banjarmasin hingga
+                  kuliah di Pendidikan Kimia, Universitas Lambung Mangkurat.
+                  Saat ini status maritalku sudah menikah.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Dwi</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/dwi_seftina/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/amin.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Muhammad Amin Al Kautsar. Lahir di
+                  Tabalong dan sekarang tinggal di Jl. Jendral Basuki Rahmat
+                  RT.05 Kel. Agung, Kec. Tanjung, Kab. Tabalong, Kalimantan
+                  Selatan. Saya bergabung dengan LB3R dari tahun 2021 sampai
+                  sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di - Internship: Guru Bahasa Inggris, SMA
+                  Negeri 2 Banjarmasin. Riwayat sekolah, mulai SD Negeri 1
+                  Agung,SMP Negeri 2 Tanjung,SMK Negeri 1 Tanjung hingga kuliah
+                  di Pendidikan Bahasa Inggris, Universitas Lambung Mangkurat.
+                  Saat ini status maritalku belum menikah. Makanan favoritku
+                  Western Food, Middle East Food, sedangkan hobiku Baking,
+                  Writing, Designing
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Pak Amin</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/alktsrr/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-					<div class="row flex flex-wrap">
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-display"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">SaaS Focused</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-leaf"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">Awesome Design</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-grid-alt"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">Ready to Use</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-javascript"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">Vanilla JS</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-layers"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">Essential Sections</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						<div class="w-full md:w-1/2 lg:w-4/12">
-							<div class="p-8 lg:px-3">
-								<div class="feature-icon-2 mb-8 text-theme-color leading-none">
-									<i class="lni lni-rocket"></i>
-								</div>
-								<div class="content">
-									<h3 class="mb-5">Highly Optimized</h3>
-									<p class="text-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore</p>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= feature-section end ========================= -->
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/ikadiani.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Ika Diani. Seorang pribadi yang Periang.
+                  Lahir di Padangin dan sekarang tinggal di Padangin RT.01
+                  Kec.Tanta Kab.Tabalong. Saya bergabung dengan LB3R dari tahun
+                  2021 sampai sekarang. Riwayat sekolah, mulai SDN Padangin,SMPN
+                  1 Muara Harus,SMAN 2 Tanjung hingga kuliah di Bahasa dan
+                  Sastra Indonesia. Saat ini status maritalku sudah menikah.
+                  Makanan favoritku Nasi goreng, sedangkan hobiku Membaca
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Ikadiani</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/ika_diani97/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-		<!-- ========================= pricing-section end ========================= -->
-		<section id="pricing" class="pricing-section relative z-10 pt-120 pb-120">
-			<div class="container">
-				<div class="row flex justify-center">
-					<div class="w-full md:w-9/12 lg:w-8/12 xl:w-6/12">
-						<div class="section-title text-center mb-9">
-							<h1 class="mb-6 ">Choose a Plan</h1>
-							<p class="">Lorem ipsum dolor sit amet consetetur sadipscing elitr sswed diam nonumy eirmod tempor nvidunt.</p>
-						</div>
-					</div>
-				</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/munawir.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya MUNAWIR SHODIQ. Lahir di Sukoharjo dan
+                  sekarang tinggal di Pondok Karet Maluyung, Jl Maluyung 7
+                  Mabuun, Murung Pudak, Tabalong. Saya bergabung dengan LB3R
+                  dari tahun 2017 sampai sekarang. Beberapa pekerjaan yang
+                  menjadi pengalamannku diantaranya bekerja di Guru di SMAN 1
+                  Patangkep Tutui. Riwayat sekolah, mulai MI Muhammadiyah Sangen
+                  1,SMPN 2 Weru,SMAN 1 Weru hingga kuliah di FKIP/Pendidikan
+                  Matematika UMS. Saat ini status maritalku sudah menikah.
+                  Makanan favoritku Bakso Bang Kumis, sedangkan hobiku Jajan
+                  Bakso & Mie Ayam
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Pak Munawir</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/munawir.shodiq/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-				<div class="pricing-nav-wrapper mb-15">
-					<ul class="pricing-nav nav nav-pills flex justify-center">
-						<li class="nav-item">
-								<button class="active" data-tab-target="#monthlyPlan">Monthly</button>
-						</li>
-						<li class="nav-item">
-								<button data-tab-target="#yearlyPlan">Yearly</button>
-						</li>
-					</ul>
-				</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/heny.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Heny Handayani. Lahir di Urata dan
+                  sekarang tinggal di Puain Kanan Kec. Tanta. Saya bergabung
+                  dengan LB3R dari tahun 2015 sampai sekarang. Riwayat sekolah,
+                  mulai SDN Urata,MTSn Tanjung,SMAN 2 Tanjung hingga kuliah di
+                  Biologi, STKIP PGRI Banjarmasin. Saat ini status maritalku
+                  belum menikah.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Heny</a>
+              </div>
+            </div>
+          </div>
 
-				<div class="tab-content pricing_content">
-					<div class="tab-pane active" id="monthlyPlan" data-tab-content>
-						<div class="row flex flex-wrap justify-center">
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$36</h1>
-										<h3 class="package-name">Basic Account</h3>
-									</div>
-									<div class="content mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> Single User </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-close"></i> 24/7 Support </li>
-											<li> <i class="lni lni-close"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover border-btn">Get Start</a>
-									</div>
-								</div>
-							</div>
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$56</h1>
-										<h3 class="package-name">Standard Account</h3>
-									</div>
-									<div class="content mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> 20+ Users </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-checkmark active"></i> 24/7 Support </li>
-											<li> <i class="lni lni-checkmark active"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover">Get Start</a>
-									</div>
-								</div>
-							</div>
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$89</h1>
-										<h3 class="package-name">Premium Account</h3>
-									</div>
-									<div class="content mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Users </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-checkmark active"></i> 24/7 Support </li>
-											<li> <i class="lni lni-checkmark active"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover border-btn">Get Start</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane" id="yearlyPlan" data-tab-content>
-						<div class="row flex flex-wrap justify-center">
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$136</h1>
-										<h3 class="package-name">Basic Account</h3>
-									</div>
-									<div class="content mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> Single User </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-close"></i> 24/7 Support </li>
-											<li> <i class="lni lni-close"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover border-btn">Get Start</a>
-									</div>
-								</div>
-							</div>
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$156</h1>
-										<h3 class="package-name">Standard Account</h3>
-									</div>
-									<div class="content mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> 20+ Users </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-checkmark active"></i> 24/7 Support </li>
-											<li> <i class="lni lni-close"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover">Get Start</a>
-									</div>
-								</div>
-							</div>
-							<div class="w-full sm:w-10/12 md:w-8/12 lg:w-4/12">
-								<div class="single-pricing mx-4">
-									<div class="pricing-header">
-										<h1 class="mb-8 text-theme-color">$189</h1>
-										<h3 class="package-name">Premium Account</h3>
-									</div>
-									<div class="mb-8 2xl:pl-13">
-										<ul class="pricing-feature">
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Acces</li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Users </li>
-											<li> <i class="lni lni-checkmark active"></i> Unlimited Storage</li>
-											<li> <i class="lni lni-checkmark active"></i> 24/7 Support </li>
-											<li> <i class="lni lni-checkmark active"></i> Free Future Updates</li>
-										</ul>
-									</div>
-									<div class="pricing-btn">
-										<a href="javascript:void(0)" class="main-btn btn-hover border-btn">Get Start</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= pricing-section end ========================= -->
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/karim.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Muhammad Abdul Karim. Lahir di Murung
+                  Pudak dan sekarang tinggal di Bangun Sari RT 11 Belimbing Raya
+                  Murung Pudak. Saya bergabung dengan LB3R dari tahun 2021
+                  sampai sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di Staff Pengawas Harian di SMAN 2
+                  Banjarmasin (2015-2016), Staff Pengajar di SMP Plus Murung
+                  Pudak (2016-sekarang). Riwayat sekolah, mulai SDN Belimbing
+                  1,MTsN Murung Pudak,SMAN 1 Tanjung hingga kuliah di Pendidikan
+                  Fisika, UNLAM. Saat ini status maritalku belum menikah .
+                  Makanan favoritku Masakan yang dibuat oleh Ibu, sedangkan
+                  hobiku Menonton Film dan Bermain Game
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Pak Karim</a>
+              </div>
+            </div>
+          </div>
 
-		<!-- ========================= testimonial-section start ========================= -->
-		<section id="testimonials" class="testimonial-section pt-8 pb-25 sm:p-0 lg:py-170">
-			<div class="container">
-				<div class="section-title text-center">
-					<h1 class="mb-8">What our customers says</h1>
-				</div>
-				<div class="testimonial-active-wrapper relative">
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/nazia.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Naziatul Rezki. Lahir di Tanjung dan
+                  sekarang tinggal di Jl. Jend. Basuki Rahmat Kel. Tanjung Kec.
+                  Tanjung. Saya bergabung dengan LB3R dari tahun 2019 sampai
+                  sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di Guru kelas di SDIT an nahl selama 10
+                  bulan. Riwayat sekolah, mulai SDN 2 Tanjung,MTsN 4
+                  Tabalong,SMAN 2 TANJUNG hingga kuliah di Pendidikan Bahasa
+                  Inggris, Universitas Lambung Mangkurat. Saat ini status
+                  maritalku Sudah Menikah. Makanan favoritku Mi goreng,
+                  sedangkan hobiku Membaca, menonton, belajar
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Nazia</a>
+              </div>
+            </div>
+          </div>
 
-					<div class="shapes">
-						<img src="assets/img/testimonial/testimonial-shape.svg" alt="" class="shape shape-1 hidden lg:block -left-25 top-1/2 transform -translate-y-1/2">
-						<img src="assets/img/testimonial/testimonial-dots.svg" alt="" class="shape shape-2 hidden lg:block left-150 -bottom-110 lg:-bottom-13 lg:w-1/4 xl:w-max">
-					</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/hendra.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Hendra Wahyudi. Seorang pribadi yang
+                  Santai. Lahir di Amuntai, 23 Juni 10993 dan sekarang tinggal
+                  di Jangkung, Tanjung. Saya bergabung dengan LB3R dari tahun
+                  2019 sampai sekarang. Beberapa pekerjaan yang menjadi
+                  pengalamannku diantaranya bekerja di Guru swasta dan SMP N 1
+                  Tanjung. Riwayat sekolah, mulai SDN Sungai Malang 4,MTsN Model
+                  Amuntai,SMAN 1 Amuntai hingga kuliah di Pend. Matematika. Saat
+                  ini status maritalku sudah menikah. Makanan favoritku Ayam,
+                  sedangkan hobiku Futsal
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Pak Hendra</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/hendrawahyudiii/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-					<div class="testimonial-active">
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/erma.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Ermawati.Lahir di Tabalong dan sekarang
+                  tinggal di Lok Batu, Rt 4 Kec. Haruai Kab. Tabalong. Saya
+                  bergabung dengan LB3R dari tahun 2017 sampai sekarang.
+                  Beberapa pekerjaan yang menjadi pengalamannku diantaranya
+                  bekerja di Mengajar di SMPN 2 Murung Pudak. Riwayat sekolah,
+                  mulai SDN 2 Lok Batu,SMPN 1 Upau,MA. Ihya Ulumuddin Bilas
+                  hingga kuliah di Pendidikan Bahasa dan Sastra Indonesia, STKIP
+                  PGRI Banjarmasin. Saat ini status maritalku belum menikah.
+                  Makanan favoritku Nasi padang, bakso, mie ayam, dan kare,
+                  sedangkan hobiku Memasak kue, olah raga, menonton drama, dan
+                  mendengarkan musik
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Erma</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/erma.wati93/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-						<!-- single testimonial -->
-						<div class="single-testimonial">
-							<div class="row flex">
-								<div class="w-full lg:w-5/12">
-									<div class="testimonial-img inline-block lg:block text-left lg:text-right relative mb-8 lg:mb-0">
-										<img src="assets/img/testimonial/testimonial-1.png" alt="" class="lg:ml-auto">
-										<div class="quote">
-											<i class="lni lni-quotation"></i>
-										</div>
-									</div>
-								</div>
-								<div class="w-0 lg:w-1/12"></div>
-								<div class="lg:w-6/12">
-									<div class="content-wrapper">
-										<div class="content">
-											<p class="text-lg leading-7 mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.</p>
-										</div>
-										<div class="info">
-											<h4 class="mb-3">Jonathon Smith</h4>
-											<p>Developer and Youtuber</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/puteri.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Puteri Noor Santri. Lahir di Jangkung
+                  dan sekarang tinggal di Jl. Jend. A. Yani RT 03 Jangkung. Saya
+                  bergabung dengan LB3R dari tahun 2020 sampai sekarang.
+                  Beberapa pekerjaan yang menjadi pengalamannku diantaranya
+                  bekerja di Hasbunallah. Riwayat sekolah, mulai SDN 6
+                  Tanjung,SMP Hasbunallah,SMAN 2 Tanjung hingga kuliah di S1
+                  Pendidikan Sejarah, Universitas Lambung Mangkurat. Saat ini
+                  status maritalku belum menikah.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Puteri</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/puterisant/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-						<!-- single testimonial -->
-						<div class="single-testimonial">
-							<div class="row flex">
-								<div class="w-full lg:w-5/12">
-									<div class="testimonial-img inline-block lg:block text-left lg:text-right relative mb-8 lg:mb-0">
-										<img src="assets/img/testimonial/testimonial-2.png" alt="" class="lg:ml-auto">
-										<div class="quote">
-											<i class="lni lni-quotation"></i>
-										</div>
-									</div>
-								</div>
-								
-								<div class="w-0 lg:w-1/12"></div>
-								<div class="lg:w-6/12">
-									<div class="content-wrapper">
-										<div class="content">
-											<p class="text-lg leading-7 mb-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.</p>
-										</div>
-										<div class="info">
-											<h4 class="mb-3">Gray Simon</h4>
-											<p>UIX Designer and Developer</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/fitri.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Fitriana Rahmatunnisa. Seorang pribadi
+                  yang Ceria, Humoris. Lahir di Amuntai dan sekarang tinggal di
+                  Jl Tanjung Selatan. Saya bergabung dengan LB3R dari tahun 2021
+                  sampai sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di Guru IPA SMP N 1 Tanjung. Riwayat
+                  sekolah, mulai SD N 3 Tanjung,Mts Mu'allimin MA,SMA N 2
+                  Tanjung hingga kuliah di Pendidikan Kimia, ULM. Saat ini
+                  status maritalku Belum Menikah. Makanan favoritku Bistik Ayam,
+                  sedangkan hobiku Nonton Drakor
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Fitri</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/viii_three/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= testimonial-section end ========================= -->
-		
-		<!-- ========================= subscribe-section start ========================= -->
-		<section id="contact" class="subscribe-section pt-120">
-			<div class="container">
-				<div class="subscribe-wrapper bg-no-repeat bg-center bg-cover rounded-3xl pt-16 pb-13 px-8 md:px-13" style="background-image: url('assets/img/subscribe/subscribe-bg.svg');">
-					<div class="row flex items-center">
-						<div class="w-full lg:w-7/12 xl:w-6/12">
-							<div class="section-title mb-4">
-								<h1 class="text-white mb-6">Subscribe Our Newsletter</h1>
-								<p class="text-white pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
-							</div>
-						</div>
-						<div class="w-full lg:w-5/12 xl:w-6/12">
-							<form action="#" class="subscribe-form relative mb-4">
-								<input type="email" name="subs-email" id="subs-email" placeholder="Your Email" class="w-full py-5 px-8 rounded-2xl bg-white text-body-color border solid border-transparent transition duration-300 focus:shadow-xl">
-								<button type="submit" class="main-btn btn-hover">Subscribe</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- ========================= subscribe-section end ========================= -->
-		
-    <!-- ========================= footer start ========================= -->
-		<footer class="footer bg-cover bg-no-repeat bg-right-top pt-120 mt-25 bg-theme-color md:bg-transparent md:pt-260 lg:pt-260" style="background-image: url('assets/img/footer/footer-bg.svg');">
-			<div class="container">
-				<div class="widget-wrapper">
-					<div class="row">
-						
-						<div class="w-full md:w-6/12 lg:w-4/12">
-							<div class="footer-widget mb-10 mx-3">
-								<div class="logo mb-8">
-									<a href="index.html"> <img src="assets/img/logo/logo.svg" alt=""> </a>
-								</div>
-								<p class="mb-8 text-white sm:pr-13 md:pr-0 2xl:pr-25">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
-								<ul class="socials flex items-center">
-									<li class="mr-5">
-										<a href="jvascript:void(0)"> <i class="lni lni-facebook-original"></i> </a>
-									</li>
-									<li class="mr-5">
-										<a href="jvascript:void(0)"> <i class="lni lni-twitter-original"></i> </a>
-									</li>
-									<li class="mr-5">
-										<a href="jvascript:void(0)"> <i class="lni lni-instagram-original"></i> </a>
-									</li>
-									<li>
-										<a href="jvascript:void(0)"> <i class="lni lni-linkedin-original"></i> </a>
-									</li>
-								</ul>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/ika.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Ika arbainoryati. Lahir di Tabalong dan
+                  sekarang tinggal di Jln.padat karya komplek puri gardena 2
+                  asoka c tanjung selatan. Saya bergabung dengan LB3R dari tahun
+                  2021 sampai sekarang. Beberapa pekerjaan yang menjadi
+                  pengalamannku diantaranya bekerja di Mengajar diSDN 2.3
+                  Ribang. Riwayat sekolah, mulai SDN 2.3 ribang,SMP Negeri 2
+                  Muara Uya,SMA Negeri 1 Tanjung hingga kuliah di PGSD
+                  Universitas Terbuka Banjarmasin. Saat ini status maritalku
+                  Sudah Menikah. Makanan favoritku Seafod, sedangkan hobiku
+                  Jalan-jalan
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Ika</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/ika_kendra/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-						<div class="w-full md:w-6/12 lg:w-2/12">
-							<div class="footer-widget mb-10 mx-3">
-								<h3 class="mb-6 text-white">About Us</h3>
-								<ul class="links">
-									<li> <a href="javascript:void(0)">Home</a> </li>
-									<li> <a href="javascript:void(0)">Feature</a> </li>
-									<li> <a href="javascript:void(0)">About</a> </li>
-									<li> <a href="javascript:void(0)">Testimonials</a> </li>
-								</ul>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/azizah.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Siti Marwati Nur Azizah. Lahir di
+                  Bandung dan sekarang tinggal di Komplek permata baru 2,
+                  jl.langsat pembataan. Saya bergabung dengan LB3R dari tahun
+                  2021 sampai sekarang. Beberapa pekerjaan yang menjadi
+                  pengalamannku diantaranya bekerja di Mengajar di SDIT An-Nahl
+                  Tabalong. Riwayat sekolah, mulai SDN 5 Galanggang,Mts Al-Ihsan
+                  Bandung barat,SMAN 2 Tanjung hingga kuliah di Pend.Bahasa
+                  Arab, UIN Antasari Banjarmasin. Saat ini status maritalku
+                  Belum menikah. Makanan favoritku Ayam goreng, sedangkan hobiku
+                  Memasak
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Azizah</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/sitimarwatinur/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-						<div class="w-full md:w-6/12 lg:w-3/12">
-							<div class="footer-widget mb-10 mx-3">
-								<h3 class="mb-6 text-white">Features</h3>
-								<ul class="links">
-									<li> <a href="javascript:void(0)">How it works</a> </li>
-									<li> <a href="javascript:void(0)">Privacy policy</a> </li>
-									<li> <a href="javascript:void(0)">Terms of service</a> </li>
-									<li> <a href="javascript:void(0)">Refund policy</a></li>
-								</ul>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/maya.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Maya Rina Sari, S.Pd. Lahir di
+                  Balikpapan dan sekarang tinggal di Jln jaksa agung Suprapto
+                  gang Al hidayah Tanjung Tabalong. Saya bergabung dengan LB3R
+                  dari tahun 2021 sampai sekarang. Beberapa pekerjaan yang
+                  menjadi pengalamannku diantaranya bekerja di - Guru honor
+                  daerah di SMA negeri barambai -Guru damping di SD 1.2
+                  belimbing raya -Guru bhs Inggris di SDIT AN NAHL. Riwayat
+                  sekolah, mulai SDN 099 Balikpapan,SMPN 10 Balikpapan,SMUN 6
+                  Balikpapan hingga kuliah di Pendidikan bahasa Inggris, STKIP
+                  PGRI Banjarmasin. Saat ini status maritalku sudah menikah.
+                  Makanan favoritku Gado-gado, sedangkan hobiku Mendengarkan
+                  musik
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Maya</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/os_nonamaia/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
 
-						<div class="w-full md:w-6/12 lg:w-3/12">
-							<div class="footer-widget mb-10 mx-3">
-								<h3 class="mb-6 text-white">Other Products</h3>
-								<ul class="links">
-									<li> <a href="jvascript:void(0)">Accounting Software</a> </li>
-									<li> <a href="jvascript:void(0)">Billing Software</a> </li>
-									<li> <a href="jvascript:void(0)">Booking System</a> </li>
-									<li> <a href="jvascript:void(0)">Tracking System</a> </li>
-								</ul>
-							</div>
-						</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/feny.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Feny Vajriani. Lahir di Tabalong dan
+                  sekarang tinggal di Jalan Basuki Rahmat RT. 4 Kelurahan Hikun.
+                  Saya bergabung dengan LB3R dari tahun 2021 sampai sekarang.
+                  Beberapa pekerjaan yang menjadi pengalamannku diantaranya
+                  bekerja di guru tematik SDIT ANNAHL TABALONG. Riwayat sekolah,
+                  mulai SDN 1 AGUNG,SMPN 2 TANJUNG,SMAN 1 TANJUNG hingga kuliah
+                  di Pendidikan Guru Sekolah Dasar. Saat ini status maritalku
+                  belum menikah. Makanan favoritku mie ayam, sedangkan hobiku
+                  Jalan-jalan
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Feny</a>
+              </div>
+            </div>
+          </div>
 
-					</div>
-				</div>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/rima.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Rima Adistya. Lahir di Jaro dan sekarang
+                  tinggal di Tepian, Tanjung . Saya bergabung dengan LB3R dari
+                  tahun 2021 sampai sekarang. Beberapa pekerjaan yang menjadi
+                  pengalamannku diantaranya bekerja di Guru. Riwayat sekolah,
+                  mulai SDN NAWIL HILIR 2,MtsN Jaro,SMAN 1 Tanjung hingga kuliah
+                  di Pendidikan Bahasa Jepang. Saat ini status maritalku belum
+                  menikah. Makanan favoritku Bakso, sedangkan hobiku Menonton
+                  film
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Sensei Rima</a>
+              </div>
+            </div>
+          </div>
 
-			</div>
-		</footer>
-    <!-- ========================= footer end ========================= -->
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/rani.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Astiarani Windi Juniaswari. Lahir di
+                  Tangerang dan sekarang tinggal di Green Propernas, Blok B2 ,
+                  Murung Pudak. Saya bergabung dengan LB3R dari tahun 2021
+                  sampai sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di Guru Ekonomi di SMA Pangudi Luhur
+                  Jakarta. Riwayat sekolah, mulai Mawar Saron,Strada Slamet
+                  Riyadi,Strada Daan Mogot hingga kuliah di Pendidikan
+                  Akuntansi, Sanata Dharma. Saat ini status maritalku Sudah
+                  Menikah. Makanan favoritku Bakso, sedangkan hobiku Nonton
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Rani</a>
+              </div>
+            </div>
+          </div>
 
-    <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top btn-hover">
-      <i class="lni lni-chevron-up"></i>
-    </a>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/riri.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Riezky Amalia. Lahir di Banjarmasin dan
+                  sekarang tinggal di Tanjung Selatan Jl. Padat Karya Komp.
+                  Harpa Jalur 2. Saya bergabung dengan LB3R dari tahun 2021
+                  sampai sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di Bimbel matematika plus Yogyakarta
+                  Banjarmasin, PPB UIN Antasari Banjarmasin Riwayat sekolah,
+                  mulai SDN Teluk Dalam 4 Banjarmasin,SMPN 1 Banjarmasin,SMAN 2
+                  Banjarmasin hingga kuliah di Pend. Bahasa Inggris Universitas
+                  Lambung Mangkurat Banjarmasin. Saat ini status maritalku Sudah
+                  menikah. Makanan favoritku Soto banjar , sedangkan hobiku
+                  Travelling
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Riri</a>
+              </div>
+            </div>
+          </div>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/aya.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Soraya. Lahir di Banjarmasin dan
+                  sekarang tinggal di Perum Perdana Griya Asri, pembataan. Saya
+                  bergabung dengan LB3R dari tahun 2019 sampai sekarang.
+                  Beberapa pekerjaan yang menjadi pengalamannku diantaranya
+                  bekerja di Radio SUN FM Bjm, Bimbel Taman Widya Bjm, Ar Rasyid
+                  Privat Bjm, MA Raudatussyubban Kab. Banjar, SMKN 1 Murung
+                  Pudak, Kab. Tabalong, MA Irtiqaiyah Bjm, MTsN Banjar Selatan
+                  Bjm, SMK Unggulan Husada Bjm,Riwayat sekolah, mulai SDN Sungai
+                  Bilu 3 Banjarmasin,SMP Negeri 6 Banjarmasin,SMA Negeri 3
+                  Banjarmasin hingga kuliah di Pendidikan Kimia, Pendidikan
+                  MIPA, Univ. Lambung Mangkurat. Saat ini status maritalku sudah
+                  menikah. Makanan favoritku Bakso, cumi, kebab, ayam, sedangkan
+                  hobiku Membaca, memasak, menjahit
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Soraya</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/ummu_akirra/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/rina.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Rina Fauziah. Lahir di Haruai dan
+                  sekarang tinggal di Perum.grand tanjung, kec. Tanta. Beberapa
+                  pekerjaan yang menjadi pengalamanku diantaranya bekerja di GTT
+                  d SMA Negeri 3 Tanjung. Riwayat sekolah, mulai SDN 2
+                  Tanjung,MTsN Tanjung,SMAN 2 Tanjung hingga kuliah di Pend.
+                  Kimia. Saat ini status maritalku Sudah Menikah. Makanan
+                  favoritku Gadi-gado, sedangkan hobiku Membaca puisi
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Rina</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col m4 s12 center">
+            <div class="card">
+              <div class="card-content">
+                <img src="img/clients/nora.png" alt="" />
+                <p>
+                  Hai, perkenalkan saya Nora Hikmah. Lahir di Mekkah dan
+                  sekarang tinggal di Mabuun komp Swadarma Lestari JL. Cucak
+                  Rowo. Saya bergabung dengan LB3R dari tahun 2017 sampai
+                  sekarang. Beberapa pekerjaan yang menjadi pengalamannku
+                  diantaranya bekerja di guru ngaji dan bahasa arab. Riwayat
+                  sekolah, mulai Elementary school 14 Negri in Mekkah Saudi
+                  Arabia,Intermediate school 9 Negri in Mekkah Saudi Arabia,High
+                  School 10 Negri in Mekkah Saudi Arabia hingga kuliah di Bahasa
+                  Arab. Saat ini status maritalku Sudah Menikah. Makanan
+                  favoritku spagehetti dan kebab, sedangkan hobiku Membaca dan
+                  Menggambar
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="">Bu Noura</a>
+              </div>
+              <div class="card-action">
+                <a href="https://www.instagram.com/bunda_313/"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/clients/gojek.png">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+      </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      const sideNav = document.querySelectorAll('.sidenav');
+      M.Sidenav.init(sideNav);
+
+      const slider = document.querySelectorAll('.slider');
+      M.Slider.init(slider, {
+        indicators: false,
+        height: 500,
+        transition: 600,
+        interval: 3000,
+      });
+
+      const parallax = document.querySelectorAll('.parallax');
+      M.Parallax.init(parallax);
+    </script>
+    <div id="top">
+      <a href="#pucuk">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          fill="currentColor"
+          class="bi bi-arrow-up-square"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 9.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+          />
+        </svg>
+      </a>
+    </div>
   </body>
 </html>
