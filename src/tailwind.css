@@ -555,6 +555,40 @@ video {
   display: flex;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[315px\] {
+  height: 315px;
+}
+
+.h-\[415px\] {
+  height: 415px;
+}
+
+.h-\[615px\] {
+  height: 615px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .md\:h-\[615px\] {
+    height: 615px;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
 }
