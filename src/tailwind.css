@@ -555,12 +555,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -573,14 +573,6 @@ video {
 
 .h-\[315px\] {
   height: 315px;
-}
-
-.h-\[415px\] {
-  height: 415px;
-}
-
-.h-\[615px\] {
-  height: 615px;
 }
 
 .w-full {
